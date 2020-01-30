@@ -7,10 +7,10 @@
     "max": 50
   },
 
-  "mongodbOCR": "mongodb://127.0.0.1:27017/OCR?authSource=admin",
-  "mongodbDigitalMarketing": "mongodb://127.0.0.1:27017/DigitalMarketing?authSource=admin",
-  "mongodbWorkForce": "mongodb://127.0.0.1:27017/WorkForce?authSource=admin",
-  "mongodb": "mongodb://127.0.0.1:27017/BestCare?authSource=admin",
+  "mongodbOCR": "mongodb://mongo-0.mongo:27017/OCR?authSource=admin",
+  "mongodbDigitalMarketing": "mongodb://mongo-0.mongo:27017/DigitalMarketing?authSource=admin",
+  "mongodbWorkForce": "mongodb://mongo-0.mongo:27017/WorkForce?authSource=admin",
+  "mongodb": "mongodb://mongo-0.mongo:27017/BestCare?authSource=admin",
   "mongodbGSDD5": "mongodb://charan:IrvingCoppell12@35.188.76.191:27017/GSDD5?authSource=admin",
   "mongodbCommon": "mongodb://adminVscript:password1@35.185.71.85:27017/Common?authSource=admin",
   "mongodbWFUsers": "mongodb://charan:IrvingCoppell12@35.188.76.191:27017/WFUsers?authSource=admin",
