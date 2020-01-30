@@ -1,0 +1,229 @@
+AGS_Beers_Disease_Syndrome_Category.xml	{"DiseaseSyndromeCategoryId":1,"DiseaseSyndromeCategoryText":"Cardiovascular"}
+AGS_Beers_Modifier.xml	{"ModifierId":1,"ModifierType":"A","ModifierText":"Chronic"}
+AGS_Beers_Disease_Syndrome_Statement.xml	{"DiseaseSyndromeStatementId":1,"DiseaseSyndromeStatementText":"Heart failure","DiseaseSyndromeCategoryId":1}
+AGS_Beers_Strength_Of_Recommendation.xml	{"StrengthOfRecommendationId":1,"StrengthOfRecommendationText":"Strong"}
+AGS_Beers_Quality_Of_Evidence.xml	{"QualityOfEvidenceId":3,"QualityOfEvidenceText":"High (Oral and patch)"}
+AGS_Beers_Table.xml	{"TableId":1,"TableName":"Table 1","TableDescription":"AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults."}
+AGS_Beers_Therapeutic_Category_Organ_System.xml	{"TherapeuticCategoryOrganSystemId":2,"TherapeuticCategoryOrganSystemText":"Antithrombotics"}
+Brand_Generic_Status.xml	{"BrandGenericStatusID":1,"StatusName":"Brand"}
+Coating.xml	{"CoatingID":1,"CoatingName":"enteric-coated"}
+Color.xml	{"ColorID":1,"ColorName":"beige"}
+DC_CrCl_Rate.xml	{"DCCrClRateID":1,"CrClRateName":"mL/min"}
+DC_Age_Band_Name.xml	{"DCAgeBandNameID":1,"AgeBandName":"Adult"}
+DC_CI_Time_Unit.xml	{"DCCITimeUnitID":1,"CITimeUnitName":"hr"}
+DC_Dosing_Category.xml	{"DCDosingCategoryID":1,"DosingCategoryName":"Load"}
+DC_Dosing_Type.xml	{"DCDosingTypeID":1,"DosingTypeName":"Strength"}
+DC_Patient_Experience.xml	{"DCPatientExperienceID":1,"PatientExperienceName":"N/A"}
+DC_Weight_Group.xml	{"DCWeightGroupID":1,"DCAgeBandNameID":1,"WeightGroupName":"Adult"}
+DESI_Status.xml	{"DESIStatusID":1,"StatusName":"Safe for all indications","CMSID":2}
+DEA_Classification.xml	{"DEAClassificationID":1,"Classification":"schedule I"}
+Documentation.xml	{"DocumentationID":1,"DocumentationRanking":1,"DocumentationText":"Established","DocumentationDescription":"Well documented; published case reports, epidemiologic data, or controlled published interaction studies with either surrogate or clinically relevant human endpoints exist."}
+Dose_Check_Age_Band_Name.xml	{"DoseCheckAgeBandNameID":1,"AgeBandName":"Adult"}
+Dose_Check_Patient_Experience.xml	{"DoseCheckPatientExperienceID":1,"PatientExperience":"N/A"}
+Dosing_Type.xml	{"DosingTypeID":1,"DosingType":"Strength"}
+Drug_Interaction_Inactive_Ingredient.xml	{"IngredientID":50}
+Drug_Item_Version_Attribute.xml	{"DrugItemVersionAttributeID":1,"AttributeName":"biconvex"}
+DSM_Route.xml	{"DSMRouteID":1,"DSMRouteText":"Systemic"}
+GSTerm_SynonymType.xml	{"GSTermSynonymTypeID":1,"SynonymType":"Consumer"}
+Implicit_Route.xml	{"ImplicitRouteID":1,"Route":"Oral, systemic"}
+Imprint_Location.xml	{"ImprintLocationID":1,"ImprintLocationDescription":"side 1"}
+Inner_Package_Unit.xml	{"InnerPackageUnitID":1,"UnitName":"ampules"}
+Item_Therapeutic_Intent.xml	{"ItemTherapeuticIntentID":1,"IntentName":"Depression/Mood Disorders"}
+Legend_Status.xml	{"LegendStatusID":1,"StatusName":"OTC"}
+IV_Container_Material.xml	{"IVContainerMaterialID":1,"Description":"Glass"}
+License_Type.xml	{"LicenseTypeID":1,"LicenseTypeName":"NDA","LicenseTypeDescription":"New Drug Application"}
+Lifestyle_Concept.xml	{"ConceptID":1,"ConceptName":"Tyramine-containing foods","ConceptDescription":"Foods rich in tyramine, such as aged cheeses, wines, beer, ale, MSG, chocolate, liver, pickled and salted fish."}
+Limited_Distribution.xml	{"LimitedDistributionID":0,"Name":"Not Applicable"}
+Medical_Supply_Type.xml	{"MedicalSupplyTypeID":1,"MedicalSupplyTypeName":"Bandages"}
+NCPDP_Unit.xml	{"NCPDPUnitID":1,"UnitName":"gm"}
+Nondrug_Item_Version_Attribute.xml	{"NondrugItemVersionAttributeID":1,"AttributeName":"biconvex"}
+Outer_Package_Unit.xml	{"OuterPackageUnitID":1,"UnitName":"ampule"}
+Package_Item_Unit.xml	{"PackageItemUnitID":1,"UnitName":"grams"}
+Patient_Education_HeaderFooter_Intl.xml	{"Id":1,"LanguageCode":"en-US","Type":"header","Text":"What is this medicine?"}
+Patient_Package_Insert.xml	{"PatientPackageInsertID":1,"Description":"Mandatory"}
+PDMP_Frequency.xml	{"FrequencyID":10,"FrequencyName":"Daily"}
+Pregnancy_Rating.xml	{"PregnancyRatingCode":"A","Description":"Adequate, well-controlled studies in pregnant women have not shown an increased risk of fetal abnormalities to the fetus in any trimester of pregnancy."}
+Price_Change_Reason.xml	{"PriceChangeReasonID":1,"ReasonName":"MFG Reported Change"}
+Product_Modifier_Type.xml	{"ProductModifierTypeID":1,"ProductModifierTypeName":"Administration Method"}
+Product_Name_Type.xml	{"ProductNameTypeID":2,"TypeName":"Generic Name"}
+REMS.xml	{"REMSID":1,"Description":"Med Guide/PPI"}
+Scoring.xml	{"ScoringID":1,"ScoringName":"not applicable"}
+Severity.xml	{"SeverityID":1,"SeverityRanking":1,"SeverityText":"1 - Severe","SeverityDescription":"The use of these medications together is contraindicated.  Rare exceptions may exist"}
+Shape.xml	{"ShapeID":2,"ShapeName":"apple"}
+SSMS_Type.xml	{"SSMSTypeID":1,"SourceType":"Single Source"}
+State.xml	{"StateID":"AK","StateName":"Alaska"}
+Storage_Location.xml	{"StorageLocationID":0,"StorageLocation":"Not Applicable"}
+Unit.xml	{"UnitCode":"%","UnitName":"percent"}
+Unit_Dose_Type.xml	{"UnitDoseTypeID":1,"TypeName":"unit dose"}
+Warning_Label_Group.xml	{"WarningLabelGroupID":1,"GroupName":"Route of Administration"}
+Vaccine_Group.xml	{"VaccineGroupID":3,"VaccineGroupName":"MMR"}
+Warning_Label_Vendor.xml	undefined
+Warning_Range.xml	{"WarningRangeID":1,"RangeStart":0,"RangeEnd":2}
+AGS_Beers_Avoid_Caution.xml	{"AvoidCautionId":1,"AvoidCautionText":"Avoid","TableId":1}
+Clinical_Management.xml	{"ClinicalManagementID":1,"ClinicalManagementText":"use combination with caution"}
+Flavor.xml	{"FlavorID":1,"FlavorName":"cherry"}
+Nondrug_Item_Version_Attributes.xml	{"NondrugItemID":8535,"Version":1,"NondrugItemVersionAttributeID":29}
+PDMP_State_Frequency.xml	{"StateID":"AZ","FrequencyID":10,"BeginDate":"2014-12-01 00:00:00"}
+Product_Attribute.xml	{"ProductAttributeID":1,"AttributeName":"alcohol free"}
+Product_Modifier.xml	{"ProductModifierID":1,"ProductModifierTypeID":1,"ProductModifierName":"24 Dose Pack"}
+Route_Of_Administration.xml	{"RouteID":1,"RouteName":"Oral","SnomedCode":260548002,"SigRouteSynonym":"by mouth","SigAbbreviation":"po"}
+Therapeutic_Equivalence.xml	{"EquivalenceCode":"AA","EquivalenceDescription":"Products coded as AA contain active ingredients and dosage forms that are not regarded as presenting either actual or potential bioequivalence problems or drug quality or standards issues."}
+Allergy_Cross_Sensitivity.xml	{"AllergyClassID1":1,"AllergyClassID2":2}
+CVXCode_VaccineGroup.xml	{"CVXCode":2,"VaccineGroupID":89}
+Observation.xml	{"ObservationID":108,"InverseObservationID":109,"ObservationText":"may increase the serum concentration of, and may have serum concentration increased by"}
+Price_Type.xml	{"PriceTypeID":1,"PriceTypeName":"Average Wholesale Price","PriceTypeCode":"AWP"}
+Script_Form.xml	{"ScriptFormID":1,"NCPDPScriptFormCode":1,"FormName":"Combination Forms"}
+AGS_Beers_Rationale.xml	{"RationalId":1,"RationalText":"Highly Anticholinergic; clearance reduced with advanced age, and tolerance develops when used as hypnotic; increased risk of confusion, dry mouth, constipation, and other Anticholinergic effects/toxicity. Use of diphenhydramine in special situations such as acute treatment of severe allergic reaction may be appropriate.","AvoidCautionId":1}
+FDA_Form.xml	{"FDAFormID":1,"FormName":"Emulsion"}
+GS_Form.xml	{"GSFormID":2,"FormName":"Bladder irrigation"}
+Product_CVXCode.xml	{"ProductID":704,"CVXCode":75}
+CVXCode.xml	{"CVXCode":1,"DescriptionShort":"DTP","VaccineStatus":"Inactive"}
+ePrescribing_State_Controlled_Substance.xml	{"StateId":"AZ","DEAClassificationID":2,"BeginDate":"2014-12-01 00:00:00"}
+Warning_Label_Vendor_Code.xml	{"WarningLabelId":1,"VendorId":1,"VendorCode":"1-11G"}
+GSTerm_Abbreviation.xml	{"GSTermID":16,"GSTermSynonymTypeID":1,"Abbreviation":"AFP"}
+Lifestyle_Class.xml	{"LifestyleID":8,"LifestyleName":"Estrogens in Hormonal Contraceptives","DSMRouteID":1}
+Storage.xml	{"StorageID":4,"StorageConcept":"Protect from light"}
+Nondrug_Item_Version_Color.xml	{"NondrugItemID":8017,"Version":1,"ColorID":5}
+Package_Deliveries.xml	{"DeliveryID":1,"PackageID":145122,"DrugItemID":84089,"IngredientID":1268,"Strength":50,"StrengthUnitCode":"mcg","TotalDeliveries":120,"TotalDeliveriesUnitCode":"actuation"}
+Allergy_Class.xml	{"AllergyClassID":1,"AllergyName":"Penicillins","AllergyDescription":"Penicillins allergenic class"}
+Generic_Nondrug_Product_Generic_Nondrug_item.xml	{"GenericNondrugProductID":1,"GenericNondrugItemID":99}
+Lifestyle_Class_Ingredient.xml	{"LifestyleID":2,"IngredientID":186}
+Ingredient_Family.xml	{"IngredientFamilyID":4,"FamilyName":"Acetylcysteine"}
+Generic_Nondrug_Product_Generic_Nondrug_Item_Therapeutic_Intent.xml	{"GenericNondrugProductID":312,"GenericNondrugItemTherapeuticIntentID":1}
+ATC_Active_Composition_Generic_Group.xml	{"ATCCode":"A10BB31","ActiveCompositionGenericGroupID":5158}
+Duplicate_Therapy_Concept_Tree.xml	{"DuplicateTherapyConceptTreeID":1,"DuplicateTherapyConceptID":1,"MaxOccurrence":1}
+GS_Form_Mapping.xml	{"GSFormID":2,"GSFormName":"Bladder irrigation","ClinicalDoseFormID":2,"ClinicalDoseFormName":"Bladder irrigation","AlternativeFormID":44,"AlternativeFormName":"Urethral Liquid","NormalizedFormID":127,"NormalizedFormName":"Urethral liquid","NormalizedRouteID":1,"NormalizedRouteName":"Bladder","TopLevelDoseFormID":5,"TopLevelDoseFormName":"Intravesical and urethral Preparations"}
+Therapeutic_Concept.xml	{"TherapeuticConceptID":1,"ConceptName":"Therapeutic Concept Classification"}
+Warning_Label.xml	{"WarningLabelID":1,"LanguageCode":"en","WarningLabelGroupID":1,"Warning":"For EXTERNAL use only"}
+Warning_Label_Short.xml	{"WarningLabelID":1,"LanguageCode":"en","WarningLabelGroupID":1,"Warning":"For EXTERNAL use only"}
+Nondrug_Item_Route.xml	{"NondrugItemID":8010,"RouteID":1}
+NCIt_Term.xml	{"NCItId":1,"NCItSubsetCode":"C89507","NCPDPSubsetPreferredTerm":"NCPDP DEASchedule Terminology","NCItCode":"C48672","NCPDPPreferredTerm":"Schedule I Substance","NCItPreferredTerm":"Schedule I Substance","NCItDefinition":"A category of drugs not considered legitimate for medical use."}
+Therapeutic_Concept_Tree.xml	{"TherapeuticConceptTreeID":1,"TherapeuticConceptID":1}
+Generic_Nondrug_Item_Therapeutic_Intent.xml	{"GenericNondrugItemTherapeuticIntentID":1,"Name":"Biotin, Calcium, Chloride, Choline, Chromium, Copper, Folic Acid, Iodine, Iron, Magnesium, Manganese, Molybdenum, Niacin, Pantothenic Acid, Phosphorus, Potassium, Selenium, Vitamin A, Vitamin B1 (Thiamine), Vitamin B12 (Cyanocobalamin), Vitamin B2 (Riboflavin), Vitamin B6 (Pyridoxine), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Vitamin K2, Zinc Enteral suspension","GenericNondrugItemID":150}
+Lifestyle_Interaction_Clinical_Management.xml	{"LifestyleID":2,"ConceptID":2,"ClinicalManagementID":4}
+Specific_Nondrug_Product_Specific_Nondrug_Item_Therapeutic_Intent.xml	{"SpecificNondrugProductID":715,"SpecificNondrugItemTherapeuticIntentID":1}
+Duplicate_Therapy_Concept.xml	{"DuplicateTherapyConceptID":1,"ConceptName":"Duplicate Therapy Concept Classification","ConceptDescription":"Root duplicate therapy tree element"}
+Patient_Education_Box_Warning_Footer_Intl.xml	{"SheetId":4,"LanguageCode":"en-US","GSTermId":3187,"FooterId":20,"Footer":"If you take too much acetaminophen get emergency medical help right away. Even if you do not have symptoms, it is important to get emergency help."}
+Product_REMS.xml	{"ProductID":131,"REMSID":1}
+Generic_Nondrug_Product.xml	{"GenericNondrugProductID":1,"Name":"Dropper, calibrated"}
+Specific_Nondrug_Product_Specific_Nondrug_Item.xml	{"SpecificNondrugProductID":1,"SpecificNondrugItemID":8}
+Therapeutic_Concept_Tree_DENORM.xml	{"TherapeuticConceptTreeID":1,"TherapeuticConceptID":1}
+Generic_Nondrug_Item.xml	{"GenericNonDrugItemID":1,"GenericNondrugItemName":"E.D. Device","MedicalSupplyTypeID":16}
+Ingredient_Group_Ingredient.xml	{"IngredientGroupID":4,"IngredientID":22}
+Ingredient_Family_Ingredient.xml	{"IngredientFamilyID":4,"IngredientID":22}
+Ingredient_Group.xml	{"IngredientGroupID":4,"IngredientID":22,"GroupName":"Acetylcysteine"}
+Nondrug_Item_Version.xml	{"NondrugItemID":10152,"Version":1,"Description":"pink, oval-shaped, side 1:LOGO, side 2:795","ShapeID":21}
+Package_Version_Nondrug_Item_Version.xml	{"PackageID":134552,"PackageVersion":1,"NondrugItemID":8010,"NondrugItemVersion":1}
+Product_Product_Modifier.xml	{"ProductID":125,"ProductModifierID":26}
+Lifestyle_Consumer_Notes.xml	{"LifestyleID":2,"ConceptID":2,"ConsumerNotes":"Side effects from Atorvastatin may get worse if you drink grapefruit juice. Do not take Atorvastatin with grapefruit juice. Discuss with your health care provider why Atorvastatin and grapefruit juice should not be taken together. Orange juice is safe to drink with Atorvastatin. Contact your prescriber immediately if you experience unexplained muscle aches, muscle pain or tenderness, general weakness or fatigue, side or back pain, or decreased urination while taking Atorvastatin."}
+Allergy_Class_Ingredient.xml	{"AllergyClassID":1,"IngredientID":122}
+Product_Ingredient_Federal_Narcotic.xml	{"ProductID":377,"IngredientID":913,"FederalDEANumber":9804}
+Patient_Education_Box_Warning_Consumer_Term_Intl.xml	{"SheetId":4,"LanguageCode":"en-US","GSTermId":3187,"ConsumerTerm":"liver damage"}
+FDA_Form_NCIt_Term.xml	{"FDAFormID":1,"FDAID":52,"FormName":"Emulsion","FormDescription":"Emulsion","NCItStrengthFormTermID":200,"NCItId":200,"NCItSubsetCode":"C89508","NCPDPSubsetPreferredTerm":"NCPDP StrengthForm Terminology","NCItCode":"C42913","NCPDPPreferredTerm":"Emulsion","NCItPreferredTerm":"Emulsion Dosage Form","NCItDefinition":"A semi-solid composed of at least two immiscible liquids, one of which is dispersed as droplets within the other liquid, and stabilized with one or more emulsifying agents."}
+Specific_Nondrug_Item_Therapeutic_Intent.xml	{"SpecificNondrugItemTherapeuticIntentID":1,"Name":"Biotin 10.6mcg, Calcium 677mg, Chloride 350mg, Choline 209mg, Chromium 17.3mcg, Copper 0.2mg, Folic Acid 186mcg, Iodine 76mcg, Iron 8mg, Magnesium 143mg, Manganese 1mg, Molybdenum 20mcg, Niacin 6.6mg, Pantothenic Acid 2.4mg, Phosphorus 664mg, Potassium 573mg, Selenium 26.6mcg, Vitamin A 1,100IU, Vitamin B1 (Thiamine) 0.5mg, Vitamin B12 (Cyanocobalamin) 1mcg, Vitamin B2 (Riboflavin) 0.5mg, Vitamin B6 (Pyridoxine) 0.5mg, Vitamin C 40mg, Vitamin D 620IU, Vitamin E 10IU, Vitamin K 20mcg, Vitamin K2 20mcg, Zinc 5mg Enteral suspension","SpecificNondrugItemID":529}
+GSTerm_Synonym.xml	{"GSTermID":1,"GSTermSynonymTypeID":1,"SynonymName":"petit mal seizures"}
+Med_Guide.xml	{"MedGuideID":552,"Filename":"focalinxr0810.pdf"}
+Specific_Nondrug_Product.xml	{"SpecificNondrugProductID":1,"GenericNondrugProductID":1,"Name":"Oral Dropper, Calibrated"}
+Specific_Nondrug_Item.xml	{"SpecificNondrugItemID":1,"Name":"19 gauge Needle","GenericNonDrugItemID":71}
+Drug_Interact_Class.xml	{"DrugInteractClassID":1,"DSMRouteID":1,"DrugInteractClassName":"Vinca alkaloids","DrugInteractClassDescription":"Vinca alkaloids are naturally occurring cancer chemotherapy agents, which are extracted from the Catharanthus rosea or periwinkle plant.  They primarily exert there cytotoxic effects on the cell by interfering with microtubules, which compose mitotic spin"}
+Company.xml	{"CompanyID":2088,"CompanyName":"Gland Pharma Ltd","CompanyNameShort":"Gland","LabelerCode":0,"ParentCompanyID":1964}
+Drug_Interact_Class_Ingredient.xml	{"DrugInteractClassID":1,"IngredientID":1194}
+Lifestyle_Interaction.xml	{"LifestyleID":2,"ConceptID":2,"SeverityID":2,"DocumentationID":1,"ProfessionalNotes":"Grapefruit juice should be avoided in patients taking atorvastatin to avoid the potential for drug accumulation and toxicity (i.e., myopathy and rhabdomyolysis). Grapefruit juice contains a compound that inhibits the CYP3A4 isozyme in the gut wall. In one pharmacokinetic study, coadministration of 240 ml grapefruit juice once daily with a single 40 mg dose of atorvastatin resulted in a 37% increase in the AUC and a 16% increase in Cmax of atorvastatin. Excessive consumption of grapefruit juice (i.e., >= 750 ml to 1.2 L/day) has been reported to result in an up to 2.5-fold increase in AUC and/or a 71% increase in Cmax of atorvastatin.","ProfessionalNotesAbbreviated":"Grapefruit juice should be avoided in patients taking atorvastatin to avoid the potential for drug accumulation and toxicity (i.e., myopathy and rhabdomyolysis)."}
+Product_Ingredient_Hazardous_Waste_Code.xml	{"ProductID":193,"IngredientID":2366,"Substance":"Reserpine","P_Code":{},"P_CodeQualifier":{},"P_CodeHazardousWasteCode":{},"F_Code":{},"F_CodeHazardousWasteCode":{},"K_Code":{},"K_CodeHazardousWasteCode":{},"U_Code":"U200","U_CodeHazardousWasteCode":{},"U_CodeQualifier":{}}
+Ingredient_RxNorm_UNII.xml	{"IngredientID":4959,"UniiCode":"07GV37SOFN"}
+Patient_Education_Box_Warning_Risk_Factor_Intl.xml	{"SheetId":4,"LanguageCode":"en-US","GSTermId":3187,"RiskFactorId":7,"RiskFactor":"liver disease or problems"}
+GSTerms.xml	{"GSTermId":1,"Name":"absence seizures","AllowedForIndication":true,"AllowedForContraindication":false,"AllowedForAdverseReaction":false}
+Ingredient_Name.xml	{"IngredientID":4,"IngredientName":"Abacavir Sulfate","BaseIngredientID":3946,"isBaseIngredient":false}
+Product_CMS_Therapeutic_Concept.xml	{"ProductID":178,"TherapeuticConceptID":699,"ConceptName":"HMG-CoA Reductase Inhibitors/Statins"}
+PDMP_Items_Of_Concern.xml	{"ProductID":182,"StateID":"IN","BeginDate":"2016-07-01 00:00:00"}
+ATC_Specific_Product.xml	{"ATCCode":"A02AF","SpecificProductId":1865}
+Dose_Check_Specific_Product_No_Information.xml	{"GenericProductClinicalID":3451,"DoseCheckAgeBandID":8922,"MinDaysOld":4748,"MaxDaysOld":6574,"SpecificProductID":6145}
+Branded_Name_Stub.xml	{"BrandedNameStubID":1,"BrandedNameStub":"60 Second"}
+Package_State_Legend_Status.xml	{"PackageIdentifier":603107554,"PackageID":17073,"ProductID":13267,"StateID":"AL","LegendStatusID":2,"EffectiveDate":"2005-01-27 00:00:00"}
+Patient_Education_Box_Warning_Side_Effect_Intl.xml	{"SheetId":4,"LanguageCode":"en-US","GSTermId":3187,"SideEffectId":17,"SideEffect":"general ill feeling (extreme tiredness, weakness or aches)"}
+GSTerm_ICD9.xml	{"ICD9_Code":0,"GSTermId":1267,"ICD9_Description":"Therapeutic ultrasound"}
+Dose_Check_Renal_Hepatic_Flag.xml	{"GenericProductClinicalID":1,"Hepatic":true,"Renal":false}
+Dose_Check.xml	{"GenericProductClinicalID":1,"EditorialExclusion":false}
+DC_Hepatic_Renal.xml	{"GenericProductClinicalID":1,"EditorialExclusion":false,"Hepatic":true,"Renal":false}
+Patient_Education_Box_Warning_Header_Intl.xml	{"SheetId":4,"LanguageCode":"en-US","GSTermId":3187,"HeaderId":19,"Header":"Too much acetaminophen can cause serious, life-threatening liver damage. Tell your healthcare provider about all the prescription and over-the-counter medications you take to make sure you are not getting too much acetaminophen. Many medications contain acetaminophen and you could accidentally take too much."}
+Active_Ingredient_Dose_Equivalent.xml	{"DrugItemID":255,"IngredientID":2105,"DoseEquivalentIngredientID":1222,"Strength":0.25,"StrengthUnitCode":"mg","PerVolume":1,"PerVolumeUnitCode":"drop"}
+Package_Nondrug_Item.xml	{"PackageID":153,"NondrugItemID":336,"ItemCount":1,"PackageItemUnitID":3}
+Active_Composition_Generic.xml	{"ActiveCompositionGenericID":3,"Name":"Inert"}
+Generic_Product_Generic_Drug_Item_Therapeutic_Intent.xml	{"GenericProductID":1,"GenericDrugItemTherapeuticIntentID":1}
+Active_Composition_Generic_Group_Active_Composition_Generic.xml	{"ActiveCompositionGenericGroupID":4270,"ActiveCompositionGenericID":1422}
+Nondrug_Item.xml	{"NondrugItemID":3,"ItemName":"Capsule Aerosolizer/Inhaler Unit","ProductID":24443,"SpecificNondrugItemID":18}
+Generic_Product.xml	{"GenericProductID":2569,"Name":"Digitoxin Oral tablet","GenericProductClinicalID":1}
+Generic_Drug_Item.xml	{"GenericDrugItemID":2548,"Name":"Digitoxin Oral tablet","ActiveCompositionGenericID":1422,"GSFormID":131}
+Generic_Product_Clinical.xml	{"GenericProductClinicalID":6066,"Name":"Chondroitin, Glucosamine Hydrochloride Oral tablet","NotSplittable":false}
+AGS_Beers_Criteria_Item.xml	{"AGSBeersCriteriaItemId":3,"AGSBeersCriteriaGenericProductId":2,"RationalId":1,"QualityOfEvidenceId":19,"StrengthOfRecommendationId":1,"TherapeuticCategoryOrganSystemId":1,"ProfessionalNotes":{}}
+Generic_Drug_Item_Therapeutic_Intent.xml	{"GenericDrugItemTherapeuticIntentID":2558,"Name":"Digitoxin Oral tablet","GenericDrugItemID":2548}
+Drug_Item_Version_Attributes.xml	{"DrugItemID":33,"Version":1,"DrugItemVersionAttributeID":7}
+Therapeutic_Concept_Tree_Specific_Product.xml	{"TherapeuticConceptTreeID":16,"SpecificProductID":1865}
+Specific_Drug_Product_Specific_Drug_Item_Therapeutic_Intent.xml	{"SpecificDrugProductID":1,"SpecificDrugItemTherapeuticIntentID":1}
+Specific_Drug_Product.xml	{"SpecificDrugProductID":1,"GenericProductID":1,"Name":"Caffeine Citrate 20mg/1mL Solution for injection"}
+Active_Composition_Specific.xml	{"ActiveCompositionSpecificID":1,"ActiveCompositionGenericID":1,"Name":"Caffeine Citrate 20mg/1mL"}
+GSTerm_ICD10.xml	{"ICD10_Code":"008Q0ZZ","GSTermId":1840,"ICD10_Description":"Division of Vagus Nerve, Open Approach"}
+Active_Ingredient.xml	{"ActiveIngredientID":1,"IngredientID":338,"Strength":20,"StrengthUnitCode":"mg","PerVolume":1,"PerVolumeUnitCode":"mL","BaseEquivalent":false}
+Specific_Product.xml	{"SpecificProductID":1,"SpecificDrugProductID":1,"Name":"Caffeine Citrate 20mg/1mL Solution for injection"}
+Nondrug_Item_Ingredient.xml	{"NondrugItemID":8010,"IngredientID":1197,"Strength":1100,"StrengthUnitCode":"IU","BaseEquivalent":false}
+Specific_Drug_Item_Therapeutic_Intent.xml	{"SpecificDrugItemTherapeuticIntentID":1,"Name":"Caffeine Citrate 20mg/1mL Solution for injection","SpecificDrugItemID":1}
+Specific_Drug_Item.xml	{"SpecificDrugItemID":1,"Name":"Caffeine Citrate 20mg/1mL Solution for injection","ActiveCompositionSpecificID":1,"GenericDrugItemID":1,"GSFormID":203}
+Product_Product_Attribute.xml	{"ProductID":33,"ProductAttributeID":1}
+Product_SSMS.xml	{"ProductID":62,"SpecificProductID":3788,"BrandGenericStatusID":1,"SSMSTypeID":1,"SourceCount":1}
+Product_Strength.xml	{"ProductID":4,"Strength":0.05,"StrengthUnit":"mg"}
+Imprint.xml	{"DrugItemID":835,"Version":1,"ImprintLocationID":1,"ImprintText":"80 RD201 LOGO Reliant"}
+Drug_Item_Route.xml	{"DrugItemID":704,"RouteID":8}
+Drug_Item_Version_Color.xml	{"DrugItemID":19,"Version":1,"ColorID":16}
+Maintenance_Medications.xml	{"PackageID":4,"ProductID":4,"MarketedProductID":24442,"SpecificProductID":4700,"NDC11":2107502}
+AGS_Beers_Criteria_Generic_Product_Product.xml	{"ProductID":4957,"AGSBeersCriteriaGenericProductId":2,"GenericProductId":1193,"GenericProductClinicalID":1318}
+Dose_Check_Age_Group_No_Information.xml	{"GenericProductClinicalID":4823,"DoseCheckAgeBandID":50,"DoseCheckAgeBandNameID":3,"MinDaysOld":4748,"MaxDaysOld":6574}
+Product_CMSName.xml	{"ProductID":3496,"CMSName":"Benazepril/Hydrochlorothiazide 5 mg - 6.25 mg Oral tablet"}
+Marketed_Product.xml	{"MarketedProductID":3,"Name":"Caffeine Citrate 20mg/1mL Solution for injection","SpecificProductID":1,"Brand":false,"Repackaged":false}
+DC_Product_Map.xml	{"ProductID":4,"SpecificProductID":4700,"GenericProductClinicalID":1}
+Dose_Check_Product_Map.xml	{"ProductID":4,"SpecificProductID":4700,"GenericProductClinicalID":1}
+Dose_Check_Specific_Product.xml	{"GenericProductClinicalID":117,"DoseCheckAgeBandID":6059,"MinDaysOld":6575,"MaxDaysOld":23740,"SpecificProductID":10052,"MinDailyUnits":1,"MaxDailyUnits":1,"UsualDailyUnits":1,"NCPDPUnitID":3}
+Marketed_Product_RxNorm.xml	{"MarketedProductID":3,"RXCUI":849931,"RxNormName":"3 ML caffeine citrate 20 MG/ML Injection","RxNormType":"Generic"}
+Product_Therapeutic_Equivalence.xml	{"ProductID":4,"EquivalenceCode":"NR"}
+GSTerm_SNOMED.xml	{"SNOMED_Code":10000006,"GSTermId":1955,"SNOMED_Description":"Radiating chest pain"}
+Package_SSMS.xml	{"PackageID":114,"SpecificProductID":7503,"BrandGenericStatusID":1,"SSMSTypeID":1,"SourceCount":1}
+Package_State_DEA_Status.xml	{"PackageIdentifier":66346006165,"PackageID":448,"ProductID":377,"StateID":"AL","DEAClassificationID":3,"BeginDate":"2005-01-27 00:00:00"}
+Active_Composition_Generic_Ingredient.xml	{"ActiveCompositionGenericID":1,"IngredientID":338}
+Product_Storage.xml	{"ProductID":926,"StorageID":7}
+Active_Composition_Specific_Active_Ingredient.xml	{"ActiveCompositionSpecificID":1,"ActiveIngredientID":1}
+Package_CMSName.xml	{"PackageID":4,"CMSName":"Digitoxin (Crystodigin) 0.05 mg Oral tablet"}
+Product_Generic_Name_Stub.xml	{"ProductID":4,"GenericNameLong":"Digitoxin"}
+Dose_Check_Age_Band.xml	{"DoseCheckAgeBandID":2,"DoseCheckAgeBandNameID":1,"GenericProductClinicalID":6868,"MinDaysOld":6575,"MaxDaysOld":23740,"NotIndicated":false}
+Product_Pregnancy_Lactation_Rating.xml	{"ProductId":1723,"IsChildBearingAge":false,"IsLaborAndDelivery":false,"LactationRating":"Avoid"}
+DC_Age_Band.xml	{"DCAgeBandID":2,"DCAgeBandNameID":1,"GenericProductClinicalID":6868,"EditorialExclusion":false,"MinDaysOld":6575,"MaxDaysOld":23740,"OffLabel":false}
+DC_Specific_Product.xml	{"DCSpecificProductID":540,"DCAgeBandID":6059,"SpecificProductID":10052,"DCPatientExperienceID":1,"DCDosingCategoryID":2,"EditorialExclusion":false,"OffLabel":false,"UsualDose":1,"NCPDPUnitID":3,"MinDose":1,"FDAMaxDose":1,"Frequency":1,"Interval":1}
+Duplicate_Therapy_Concept_Tree_Product.xml	{"DuplicateTherapyConceptTreeID":221,"ProductID":3483}
+Drug_Item_Version.xml	{"DrugItemID":48402,"Version":1,"Description":"white, round-shaped, cherry, side 1:LAMICTAL, side 2:100","CoatingID":4,"FlavorID":1,"ShapeID":25,"ScoringID":2}
+Drug_Interaction_Clinical_Management.xml	{"DrugInteractionID":7,"ClinicalManagementID":1}
+Product_Storage_Location.xml	{"ProductID":19,"StorageLocationID":0,"BeforeDispensing":"N/A","AfterDispensing":"N/A"}
+Drug_Interaction_Drug_Interact_Class.xml	{"DrugInteractionID":7,"DrugInteractClassID":12,"InteractionPosition":1}
+Package_Drug_Item.xml	{"PackageID":606,"DrugItemID":488,"ItemCount":118,"PackageItemUnitID":2}
+Product_Branded_Name_Stub.xml	{"ProductID":1890,"BrandedNameStubID":1386,"Default":false}
+Drug_Item.xml	{"DrugItemID":11495,"ProductID":11495,"ItemNameLong":"Sulindac 150mg, Oral tablet","GSFormID":131,"FDAFormID":37,"ImplicitRouteID":1,"SpecificDrugItemID":726}
+Drug_Interaction_Consumer_Notes.xml	{"DrugInteractionID":7,"ConsumerNotes":"Although these drugs can interact, generally, Epoprostenol is only used in a hospital or clinic. Epoprostenol increases the actions of Vasodilators, which are drugs that lower blood vessel pressures. If the blood pressure drops too low while taking these medications, you may become dizzy or feel faint. To limit this interaction, do not stand or sit up too quickly. Contact your prescriber if you have dizziness which does not go away."}
+Dose_Check_Ingredient.xml	{"GenericProductClinicalID":6319,"DoseCheckAgeBandID":2093,"MinDaysOld":6575,"MaxDaysOld":23740,"IngredientID":2327,"MinDailyDose":12,"MaxDailyDose":48,"UsualDailyDose":24,"UnitCode":"mg","DoseCheckPatientExperienceID":1,"DosingTypeID":1,"Frequency":1,"FrequencyDays":1}
+Package_Version_Drug_Item_Version.xml	{"PackageID":4,"PackageVersion":1,"DrugItemID":4,"DrugItemVersion":1}
+Patient_Education_Intl.xml	{"SheetId":1,"LanguageCode":"en-US","SHEET_NAME":"Acetaminophen tablets or caplets","DESCR":"ACETAMINOPHEN (a set a MEE noe fen) is a pain reliever. It is used to treat mild pain and fever.","CONTRA":"They need to know if you have any of these conditions:\n\n  -if you often drink alcohol\n  -liver disease\n  -an unusual or allergic reaction to acetaminophen, other medicines, foods, dyes, or preservatives\n  -pregnant or trying to get pregnant\n  -breast-feeding","ADMIN":"Take this medicine by mouth with a glass of water. Follow the directions on the package or prescription label. Take your medicine at regular intervals. Do not take your medicine more often than directed.\n\nTalk to your pediatrician regarding the use of this medicine in children. While this drug may be prescribed for children as young as 6 years of age for selected conditions, precautions do apply.","MISSED":"If you miss a dose, take it as soon as you can. If it is almost time for your next dose, take only that dose. Do not take double or extra doses.","INTER":"-alcohol\n-imatinib\n-isoniazid\n-other medicines with acetaminophen","MONITOR":"Tell your doctor or health care professional if the pain lasts more than 10 days (5 days for children), if it gets worse, or if there is a new or different kind of pain. Also, check with your doctor if a fever lasts for more than 3 days.\n \nDo not take other medicines that contain acetaminophen with this medicine. Always read labels carefully. If you have questions, ask your doctor or pharmacist.\n \nIf you take too much acetaminophen get medical help right away. Too much acetaminophen can be very dangerous and cause liver damage. Even if you do not have symptoms, it is important to get help right away.","SIDE":"Side effects that you should report to your doctor or health care professional as soon as possible:\n-allergic reactions like skin rash, itching or hives, swelling of the face, lips, or tongue\n-breathing problems\n-fever or sore throat\n-redness, blistering, peeling or loosening of the skin, including inside the mouth\n-trouble passing urine or change in the amount of urine\n-unusual bleeding or bruising\n-unusually weak or tired\n-yellowing of the eyes or skin\n \nSide effects that usually do not require medical attention (report to your doctor or health care professional if they continue or are bothersome):\n-headache\n-nausea, stomach upset","STORE":"Keep out of reach of children.\n\nStore at room temperature between 20 and 25 degrees C (68 and 77 degrees F). Protect from moisture and heat. Throw away any unused medicine after the expiration date.","DESCR_HEADERID":1,"DESCR_FOOTERID":9,"CONTRA_HEADERID":2,"ADMIN_HEADERID":7,"ADMIN_FOOTERID":10,"MISSED_HEADERID":4,"INTER_HEADERID":3,"INTER_FOOTERID":11,"SIDE_HEADERID":6,"SIDE_FOOTERID":12,"MONITOR_HEADERID":5,"STORE_HEADERID":8,"STORE_FOOTERID":13,"LastUpdated":"2014-08-11 12:54:16"}
+NonSplittable_Product.xml	{"MarketedProductID":37225,"ProductID":51866,"OrderableName":"1-Day","NonSplittable":false}
+DC_Ingredient.xml	{"DCIngredientID":408,"DCAgeBandID":2093,"IngredientID":2327,"DCPatientExperienceID":1,"DCDosingCategoryID":2,"EditorialExclusion":false,"DCDosingTypeID":1,"OffLabel":false,"UsualDose":24,"UnitCode":"mg","MinDose":12,"FDAMaxDose":48,"Frequency":1,"Interval":1}
+Drug_Item_Active_Ingredient.xml	{"DrugItemID":30540,"IngredientID":537,"Strength":30,"StrengthUnitCode":"IU","BaseEquivalent":false}
+Product_Patient_Sheets.xml	{"ProductID":900,"SheetID":1,"SheetName":"Acetaminophen Oral tablet","GenericProductClinicalId":345,"LanguageCode":"en-US"}
+Drug_Interaction_Reference.xml	{"DrugInteractionID":7,"ReferenceID":4892,"Reference":"Flolan(R) (Epoprostenol) package insert. Research Triangle Park, NC 27709: GlaxoSmithKline; 2002 September."}
+Product_Pregnancy_Rating.xml	{"ProductID":4,"Trimester":1,"PregnancyRatingCode":"C"}
+Product_Warning_Label.xml	{"ProductID":4,"WarningLabelID":372,"WarningOrder":1}
+Product_Warning_Label_Warning_Range.xml	{"ProductID":7,"WarningLabelID":21,"WarningRangeID":1,"Gender":"Both"}
+Marketed_Product_RxNorm_Prescribable_Name.xml	{"MarketedProductRxNormPrescribableNameID":72857,"MarketedProductID":100,"RXCUI":313979,"RxNormName":"Fludrocortisone 0.1 MG Oral Tablet","RxNormType":"Generic","RxNormPSN":"fludrocortisone acetate 0.1 MG Oral Tablet","RxNormTMSY":"Not Supplied","RxNormSY":"Not Supplied"}
+NonSplittable_Package.xml	{"MarketedProductID":32658,"PackageID":74913,"NonSplittable":true}
+Drug_Interaction.xml	{"DrugInteractionID":7,"SeverityID":2,"DocumentationID":1,"ForwardObservationID":120,"InverseObservationID":24,"ProfessionalNotes":"Further reductions in blood pressure may occur when vasodilators are combined with epoprostenol.","ProfessionalNotesAbbreviated":"Excessive reductions in blood pressure."}
+Federal.xml	{"NDC11":2107502,"PackageID":4,"ProductID":4,"ProductNameShort":"Crystodigin 0.05mg Tab","LicenseTypeID":2,"FDALicenseNumber":84100,"MedGuide":false,"Dilution":false,"DEAClassificationID":6,"LegendStatusID":2,"REMSFlag":false}
+Drug_Item_Inactive_Ingredient.xml	{"DrugItemID":7,"IngredientID":867}
+Product.xml	{"ProductID":450,"NDC9":"00781-2824","ProductNameLong":"Fluoxetine Hydrochloride 40mg Capsule","ProductNameTypeID":2,"ProductNameShort":"Fluoxetine 40mg Cap","ePrescribingName":"Fluoxetine Hydrochloride 40mg Capsule","MarketerID":392,"DESIStatusID":6,"DEAClassificationID":6,"BrandGenericStatusID":4,"LegendStatusID":2,"MarketedProductID":11934,"CP_NUM":259,"LicenseTypeID":2,"Repackaged":false,"Innovator":false,"PrivateLabel":false,"ProductOnMarketDate":"2002-11-13 00:00:00","BulkChemical":false,"LimitedDistributionID":0}
+PDMP_Controlled_Substance_Product.xml	{"ProductID":144,"StateID":"AK","DEAClassificationID":3,"BeginDate":"2014-12-01 00:00:00"}
+Price_Errata.xml	{"PackagePriceErrataID":3257,"PriceTypeID":2,"PackageID":59434,"BeginDate":"2006-04-03 00:00:00","EndDate":"2007-04-01 00:00:00","PackagePrice":106.05,"UnitPrice":0.4242}
+Package_Version.xml	{"PackageIdentifier":"0603-2212-21","PackageIdentifierType":"NDC10","FormattedPackageIdentifier":603221221,"PackageID":8994,"Version":2,"NCPDPBillingUnitID":3,"NCPDPScriptFormCode":10,"OuterPackageUnitID":4,"ProductID":9794,"PackageVersionDescription":"bottle, 100 each Amitriptyline HCl 10mg, Oral tablet, blue, round-shaped, side 1:V, side 2:2101","PreservativeFree":false,"PackageVersionOnMarketDate":"2009-10-01 00:00:00","UnformattedNDC10":603221221,"PackageSize":100}
+Package.xml	{"PackageID":8994,"NDC10":603221221,"NDC11":603221221,"GTIN12":306032212214,"GTIN14":306032212214,"NCPDPBillingUnitID":3,"NCPDPScriptFormCode":10,"OuterPackageUnitID":4,"ProductID":9794,"PackageDescription":"bottle, 100 each Amitriptyline HCl 10mg, Oral tablet","PreservativeFree":false,"PackageOnMarketDate":"2005-01-27 00:00:00","PackageSize":100,"NotSplittable":false,"ShortCycleDispensing":false,"ShortCycleDispensingIsManual":false,"MinimumDispenseQuantity":1,"MinimumDispenseQuantityIsManual":false,"UnitDoseTypeID":2}
+Product_Strength_Route_Form.xml	{"ProductID":4,"IngredientID":1097,"IngredientName":"Digitoxin","Strength":0.05,"StrengthUnitCode":"mg","RouteID":1,"RouteName":"Oral","FDAFormID":37,"FDAForm":"Tab","GSFormID":131,"GSForm":"Oral tablet","AlternativeFormID":25,"AlternativeFormName":"Oral Solid","ClinicalDoseFormID":106,"ClinicalDoseFormName":"Oral tablet","NormalizedFormID":68,"NormalizedFormName":"Oral tablet","TopLevelDoseFormID":10,"TopLevelDoseFormName":"Oral preparations - solid forms"}

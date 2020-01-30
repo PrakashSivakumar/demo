@@ -1,0 +1,3786 @@
+<?xml version="1.0"?>
+<Interchange segment-terminator="~" element-separator="*" sub-element-separator="&gt;">
+  <ISA>
+    <!--Author Information Qualifier-->
+    <ISA01>00<!--No Authorization Information Present--></ISA01>
+    <!--Author Information-->
+    <ISA02>          </ISA02>
+    <!--Security Information Qualifer-->
+    <ISA03>00<!--No Security Information Present--></ISA03>
+    <!--Security Information-->
+    <ISA04>          </ISA04>
+    <!--Interchange ID Qualifier-->
+    <ISA05>01<!--Duns (Dun & Bradstreet)--></ISA05>
+    <!--Interchange Sender ID-->
+    <ISA06>177667227      </ISA06>
+    <!--Interchange ID Qualifier-->
+    <ISA07>ZZ<!--Mutually Defined--></ISA07>
+    <!--Interchange Receiver ID-->
+    <ISA08>08M770634      </ISA08>
+    <!--Interchange Date-->
+    <ISA09>180307</ISA09>
+    <!--Interchange Time-->
+    <ISA10>1908</ISA10>
+    <!--Inter Control Standards Identifier-->
+    <ISA11>U<!--U.S. EDI Community of ASC X12, TDCC, and UCS--></ISA11>
+    <!--Inter Control Version Number-->
+    <ISA12>00401</ISA12>
+    <!--Inter Control Number-->
+    <ISA13>200000011</ISA13>
+    <!--Acknowlegment Requested-->
+    <ISA14>0<!--No Acknowledgment Requested--></ISA14>
+    <!--Usage Indicator-->
+    <ISA15>P<!--Production Data--></ISA15>
+    <!--Component Element Separator-->
+    <ISA16>
+      <ISA1601 />
+      <ISA1602 />
+    </ISA16>
+  </ISA>
+  <FunctionGroup>
+    <GS>
+      <!--Functional Identifier Code-->
+      <GS01>IN</GS01>
+      <!--Application Sender's Code-->
+      <GS02>177667227</GS02>
+      <!--Application Receiver's Code-->
+      <GS03>08M770634</GS03>
+      <!--Date-->
+      <GS04>20180307</GS04>
+      <!--Time-->
+      <GS05>1908</GS05>
+      <!--Group Control Number-->
+      <GS06>200000002</GS06>
+      <!--Responsible Agency Code-->
+      <GS07>X<!--Accredited Standards Committee X12--></GS07>
+      <!--Version/Release/Industry Identifier Code-->
+      <GS08>004010</GS08>
+    </GS>
+    <Transaction ControlNumber="0001">
+      <ST>
+        <!--Transaction Set Identifier Code-->
+        <ST01>810</ST01>
+        <!--Transaction Set Control Number-->
+        <ST02>0001</ST02>
+      </ST>
+      <BIG>
+        <BIG01>20180308</BIG01>
+        <BIG02>7859809854</BIG02>
+        <BIG03>20180307</BIG03>
+        <BIG04>manrx</BIG04>
+        <BIG05 />
+        <BIG06 />
+        <BIG07>DR</BIG07>
+      </BIG>
+      <Loop LoopId="N1" Name="Party">
+        <N1>
+          <!--Entity Identifier Code-->
+          <N101>RE</N101>
+          <!--Name-->
+          <N102>MCKESSON DRUG CO.</N102>
+          <!--Identification Code Qualifier-->
+          <N103>91<!--Assigned by Seller or Seller's Agent--></N103>
+          <!--Identification Code-->
+          <N104>177667227</N104>
+        </N1>
+      </Loop>
+      <Loop LoopId="N1" Name="Party">
+        <N1>
+          <!--Entity Identifier Code-->
+          <N101>ST</N101>
+          <!--Name-->
+          <N102>BEST CARE PHARMACY JAL</N102>
+          <!--Identification Code Qualifier-->
+          <N103>91<!--Assigned by Seller or Seller's Agent--></N103>
+          <!--Identification Code-->
+          <N104>770634</N104>
+        </N1>
+        <N3>
+          <!--Address Information-->
+          <N301>115 MAIN STREET</N301>
+        </N3>
+        <N4>
+          <!--City Name-->
+          <N401>JAL</N401>
+          <!--State or Provice Code-->
+          <N402>NM</N402>
+          <!--Postal Code-->
+          <N403>88252</N403>
+        </N4>
+      </Loop>
+      <Loop LoopId="N1" Name="Party">
+        <N1>
+          <!--Entity Identifier Code-->
+          <N101>BT</N101>
+          <!--Name-->
+          <N102>BEST CARE PHARMACY JAL</N102>
+          <!--Identification Code Qualifier-->
+          <N103>91<!--Assigned by Seller or Seller's Agent--></N103>
+          <!--Identification Code-->
+          <N104>770634</N104>
+        </N1>
+        <N3>
+          <!--Address Information-->
+          <N301>115 MAIN STREET</N301>
+        </N3>
+        <N4>
+          <!--City Name-->
+          <N401>JAL</N401>
+          <!--State or Provice Code-->
+          <N402>NM</N402>
+          <!--Postal Code-->
+          <N403>88252</N403>
+        </N4>
+      </Loop>
+      <ITD>
+        <ITD01>01</ITD01>
+        <ITD02>3</ITD02>
+        <ITD03 />
+        <ITD04 />
+        <ITD05 />
+        <ITD06>20180410</ITD06>
+      </ITD>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>1</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.98</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1147610</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BE</PID04>
+            <PID05>ALBUTEROL INH 0.083% WAT   25@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>2</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.22</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1262294</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ALENDRO SOD TB70MG BP5X4NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>3</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>13.57</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2024776</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ALLOPURINOL TAB 100MG 100NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>4</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.39</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1941657</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>AMLODIPINE BES TB 10MG ASC 90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>5</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.48</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3478401</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>AMOXICI CLV POT875 12520NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>6</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>33.25</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1282607</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>AMOXICIL CAP 500MG 500  NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>7</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.22</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1863919</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AC</PID04>
+            <PID05>AMOXICIL OS 400 5ML WEST100ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>8</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>0</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.4</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1293513</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ATENOL TAB 25MG     TEV    100</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>9</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.75</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1634070</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ATENOL TAB  50MG    TEV   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>10</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>6.77</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2231744</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ATORVAS CALC TB 10MG  APX  90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>11</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.64</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2231777</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ATORVAS CALC TB 20MG APX  90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>12</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.06</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2164309</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>AZITHROMY TB 250MG BP TEVA3X6@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>13</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>14.58</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1949775</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AC</PID04>
+            <PID05>AZITHROMY O S 300MG GRE  15ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>14</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>9.33</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1950393</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AC</PID04>
+            <PID05>AZITHROMY O S 600MG GRE  15ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>15</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>24.22</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2166437</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AC</PID04>
+            <PID05>CEPHALEX OS 250MG 5MLTEV200ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>16</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>12.72</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1383736</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AC</PID04>
+            <PID05>PENICIL-VK O S 250MG TEV 2CML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>17</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.34</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1170562</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AC</PID04>
+            <PID05>AMOXICIL SUS 250MG  TEV 150ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>18</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>12.93</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3724820</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>BUPROP HCL ER TB 150MG DR R30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>19</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>12.93</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3724820</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>BUPROP HCL ER TB 150MG DR R30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>20</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>20.15</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1257542</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>BUPROPIO ER TAB 150MG EON 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>21</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>9.97</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3666732</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CEPHALEX CAP 500MG  TEV   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>22</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.24</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1259449</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CARVEDILOL TB 6.25MG TEV  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>23</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>11.3</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1716687</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CEPHALEX CAP 250MG  AURO  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>24</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.75</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1259563</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CARVEDILOL TB 12.5MG TEV  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>25</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.74</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1259670</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CARVEDILOL TB 25MG TEV    100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>26</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>5.84</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2129757</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CITALOPRAM HBR TB 40MG TOR100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>27</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.07</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1413459</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CITALOPRAM TAB 20MG AURO  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>28</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>13.2</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1267186</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CIPROFLOX TAB 500MG 100 NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>29</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.08</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1309384</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CLOPIDOGR TAB 75MG AURO 90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>30</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>13.87</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2285203</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CLONIDINE TAB 0.1MG  ACTA 500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>31</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>34.2</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1109693</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>DOXYCYC MONO TB 100MG HERI 50@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>32</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.82</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1319391</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>CYCLOBENZ TAB 10MG  WAT   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>33</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.82</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2242733</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>DONEPEZ TAB 5MG   SOLC    90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>34</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>5.27</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2242899</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>DONEPEZ TAB 10MG  SOLC  90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>35</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.88</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2052124</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>DULOXET DR CAP 30MG CIT 30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>36</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>6.19</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2051894</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>DULOXET DR CAP 60MG CIT 30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>37</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.22</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1390152</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ESCITALOP TAB 10MG AURO   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>38</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>17.43</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1733641</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FLUCONAZ TAB 150MG 12X1 NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>39</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>9.97</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1762988</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FINASTER TAB 5MG    AURO   90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>40</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>12.39</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3280385</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ESCITALOP TAB  20MG TORR 100</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>41</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.4</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1799386</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BD</PID04>
+            <PID05>FLUTICAS NAS SP50MCG HI-T16GM@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>42</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.94</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3549706</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>GABAPENTIN CAP 100MG 100 NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>43</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.88</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3549771</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>GABAPENTIN CAP 300MG 100 NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>44</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>0</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>1.54</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2407377</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FLUOXET CAP 10MG   TEVA 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>45</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.79</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2737377</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FLUOXET CAP 20MG   TEVA  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>46</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>24.5</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1407980</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FLUOXET CAP 40MG    TEV   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>47</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.65</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2167278</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FOLIC ACID TAB 1MG  AKY   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>48</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.32</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3743333</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FUROSEMIDE TAB 20MG SOLC100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>49</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.6</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3743341</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>FUROSEMIDE TAB 40MG SOLC100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>50</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>5.46</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1805308</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>IA</PID04>
+            <PID05>LATANOP OS 125MCG 2.5ML GRE 1@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>51</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>57.74</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3297652</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BA</PID04>
+            <PID05>NEOMY POL B OTIC SOL B L 10ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>52</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>15.62</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1811124</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BA</PID04>
+            <PID05>OFLOXACIN OPH 0.3%  AKOR  5ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>53</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>19.66</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3502739</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BA</PID04>
+            <PID05>OLOPATAD HCI OPH 0.1% APOT5ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>54</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>33.87</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2738524</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BA</PID04>
+            <PID05>PREDNISOL AC OPH 1% FAL   5ML@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>55</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.39</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1151067</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BE</PID04>
+            <PID05>ALBUTEROL INH 0.083% WAT   60@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>56</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>51.73</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1826700</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BE</PID04>
+            <PID05>VENTOLIN HFA 200DOSE W COUNTER</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>57</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>57.34</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2008068</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BE</PID04>
+            <PID05>PROAIR HFA MDI W COUNTER 8.5GM</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>58</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>382.75</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1771930</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>BE</PID04>
+            <PID05>SPIRIVA HANDIHALER          30</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>59</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.96</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2726164</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>GLIPIZIDE TAB 10MG  SAN   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>60</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.09</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2725968</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>GLIPIZIDE TAB 5MG   SAN   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>61</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>15.49</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3618295</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>GLIPIZIDE ER TAB 5MG PAR 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>62</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>32.17</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3618303</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>GLIPIZIDE ER TAB 10MG PAR 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>63</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>5.37</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3476371</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>HYDROCHLOROTH CP12.5MG CIT100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>64</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.46</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3475639</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>HYDROCHLOROTH TAB 25MG ACC100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>65</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.25</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1904929</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>HYDROXYZ TAB 25MG   100 NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>66</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>8.78</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3209483</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>HYDROXYZ PAM CP 25MG SAN  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>67</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.28</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1195759</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>CA</PID04>
+            <PID05>TRIAMCIN CRM 0.1%   FOUG 15GM@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>68</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.51</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3432382</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>CA</PID04>
+            <PID05>TRIAMCIN OINT 0.1%  PERR 15GM@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>69</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.99</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1997014</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>CA</PID04>
+            <PID05>MUPIROCIN OINT 2%   TEV  22GM@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>70</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.9</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2292993</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>CA</PID04>
+            <PID05>HYDROCORT CRM 2.5%  ACTA 30GM@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>71</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>28.84</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3545969</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>IBUPROFEN TAB 800MG ASC 500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>72</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>25.92</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3745783</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>IBUPROFEN TAB 600MG AMN 500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>73</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.62</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1788538</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LOVASTAT TAB 20MG   LUPI   60@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>74</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>9.49</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1745983</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LOVASTAT TAB 40MG  LUPI   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>75</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.99</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3608205</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LAMOTRIGINE TB 25MG 100 NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>76</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.09</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1979053</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LOSARTAN POT TAB 25MG AURO 90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>77</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.44</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3551413</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LOSARTAN TAB 50MG SOLC 90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>78</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>5.2</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1936905</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LOSART POT TAB 100MG AURO 90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>79</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>5.02</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3743085</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LISINOPRIL TAB 40MG SOLC 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>80</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.4</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3743044</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LISINOPRIL TAB 20MG SOLC 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>81</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.84</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3743028</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LISINOPRIL TAB 10MG SOLC 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>82</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>8.78</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1200260</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LOSARTANHCTZTB100 12.5 0NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>83</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.56</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1201789</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LOSARTAN HCTZTB 100 25 0NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>84</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>37.45</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3585635</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LEVOTHY SOD TAB 0.1MG MYLN90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>85</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>37.56</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3564622</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LEVOTHYROX SOD TB 75MCGMYLN90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>86</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>33.99</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3566502</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LEVOTHY SOD TB 50MCG MYLN 90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>87</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>8.36</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3611266</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LEVOFLOXACIN TAB 500MG CAM 50@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>88</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>31.59</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3574746</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>LEVOTHYROX TB 25MCG MYLN 90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>89</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.98</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3478633</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>MELOXICAM TAB  15MG    CIP 100</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>90</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>14.27</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3434958</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METFORMIN HCL TB1000MG HER500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>91</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.35</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1749316</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METFORM TAB 500MG   AURO  500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>92</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>56.29</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3475076</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>OMEPRAZ DR CP 20MG SAN1000@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>93</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>17.24</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1400266</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METFORM ER TAB 500MG CARA 500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>94</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>84.32</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3260767</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>OMEPRAZ DR CAP 40MG LAN  1000@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>95</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.69</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1290311</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>MONTELUK TAB 10MG   AURO  90@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>96</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.85</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3522315</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>MONTELUK SOD CHW TB 5MGCAMB30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>97</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>24.75</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1163872</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>PENICIL V POT TB 500MG100NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>98</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.57</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3241114</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ONDANS ODT TAB 4MG UD SAN  30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>99</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>26.1</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1394675</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>NAPROXEN TAB 500MG  GLEN  500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>100</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>68.31</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1871128</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>PAROXETIN TAB 20MG  AURO 1000@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>101</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>86.03</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3237708</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>NITROFURANT CAP 100MG100 NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>102</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>39.01</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2218220</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METRONID TAB 500MG  PLIV  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>103</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.66</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1914365</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METOPROL TRT TB 25MG CARA 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>104</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.3</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1779339</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METOPROLOL TAB 50MG AURO 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>105</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>44.12</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1779065</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METOPROL ER TAB 100MG DR R100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>106</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>25.2</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1779024</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METOPROL ER TAB 25MG DR R 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>107</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>24.49</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1343474</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>OXYBUTYNIN TAB 5MG  U S  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>108</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.79</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1784933</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>ONDANSETR HCL TAB 4MG AURO30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>109</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>26</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1779040</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METOPROL ER TAB 50MG DR R 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>110</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.64</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3616307</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>MIRTAZAPINE TB 15MG 30 NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>111</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>5.63</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1914530</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>METOPROL TAB 100MG  CARA  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>112</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>3.71</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3616315</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>MIRTAZAPINE TB 30MG 30 NSTR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>113</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>15.58</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3677259</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>RANITIDINE TAB 300MG AMN 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>114</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.5</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1304104</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>PREDNISON TAB 5MG   JUB   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>115</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>13.53</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1304823</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>PREDNISON TAB 10MG  JUB   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>116</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>10.17</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3422318</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>PROMETH HCL TAB 25MG AMN 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>117</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>13.14</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1304856</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>PREDNISON TAB 20MG  JUB   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>118</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>6.64</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2905651</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>PIOGLITAZONE TAB 30MG MACL 30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>119</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>24.75</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1486042</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>POT CHL ER TAB 10MEQ SAN  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>120</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>35.32</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3731338</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>RANITIDINE TAB 150MG AMN 500@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>121</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>23.72</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1489921</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>POT CHL ER TAB 20MEQ SAN  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>122</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>2.29</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1444793</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SIMVASTAT TAB 10MG 30   NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>123</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>6.71</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3284866</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SERTRALIN TAB 50MG 100  NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>124</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>11.39</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1134584</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SUMATRIP TAB 25MG UD 9  NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>125</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>6.69</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1445634</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SIMVASTAT TAB 40MG   90 NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>126</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.02</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1445378</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SIMVASTAT TAB 20MG   90 NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>127</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>13.2</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2135549</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>TAMSULOS CAP 0.4MG  SAN   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>128</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.23</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1923788</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SULFAM TRI TAB 8C 160 MUT 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>129</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>7.25</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1428119</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SPIRONOL TAB 25MG   MUT   100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>130</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>12.51</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1755222</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>TIZANIDINE TAB 2MG  DR R  150@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>131</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>8.73</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3284999</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>SERTRALIN TAB 100MG 100 NSTAR@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>132</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>9.98</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1463736</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>TRAZOD TAB 100MG    PLIV  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>133</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>18.61</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3563947</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>VITAMIN D CAP 1.25MG BAN 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>134</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>13.2</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3486362</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>WARFARIN SOD TAB 5MG CIT 100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>135</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>4.98</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1462951</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>TRAZOD TAB  50MG    PLIV  100@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>136</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>6.06</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>2135226</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>VENLAF ER CAP 150MG TEV    30@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>137</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>78.72</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1757129</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>TIZANIDINE TAB 4MG  DR R 1000@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>138</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>95.82</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>3709284</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AD</PID04>
+            <PID05>OSELTAMIV PHOS CP75MG SKYBP10@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <Loop LoopId="IT1" Name="ITEM">
+        <IT1>
+          <!--Assigned Identification-->
+          <IT101>139</IT101>
+          <!--Quantity Invoiced-->
+          <IT102>1</IT102>
+          <!--Unit or Basic for Measurement-->
+          <IT103>EA<!--Each--></IT103>
+          <!--Unit Price-->
+          <IT104>6.27</IT104>
+          <IT105 />
+          <!--Product/Service ID Qualifier-->
+          <IT106>VN</IT106>
+          <!--Product/Service ID-->
+          <IT107>1383199</IT107>
+        </IT1>
+        <Loop LoopId="PID" Name="PRODUCT/ITEM">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03>AS</PID03>
+            <PID04>AA</PID04>
+            <PID05>LACTULOSE SOL 10G 15MLHI-T16Z@</PID05>
+          </PID>
+        </Loop>
+      </Loop>
+      <TDS>
+        <TDS01>255829</TDS01>
+        <TDS02 />
+        <TDS03>250712</TDS03>
+        <TDS04>5117</TDS04>
+      </TDS>
+      <CTT>
+        <CTT01>139</CTT01>
+      </CTT>
+      <SE>
+        <!--Number of Included Segments-->
+        <SE01>291</SE01>
+        <!--Transaction Set Control Number-->
+        <SE02>0001</SE02>
+      </SE>
+    </Transaction>
+    <GE>
+      <!--Number of Transaction Sets Included-->
+      <GE01>1</GE01>
+      <!--Group Control Number-->
+      <GE02>200000002</GE02>
+    </GE>
+  </FunctionGroup>
+  <IEA>
+    <!--Number of Included Functional Groups-->
+    <IEA01>1</IEA01>
+    <!--Interchange Control Number-->
+    <IEA02>200000011</IEA02>
+  </IEA>
+</Interchange>

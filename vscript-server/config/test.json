@@ -1,0 +1,65 @@
+{
+  "host": "https://graph.vscript.co/",
+  "port": 443,
+  "public": "../public/",
+  "paginate": {
+    "default": 12,
+    "max": 50
+  },
+
+  "mongodbOCR": "mongodb://127.0.0.1:27017/OCR?authSource=admin",
+  "mongodbDigitalMarketing": "mongodb://127.0.0.1:27017/DigitalMarketing?authSource=admin",
+  "mongodbWorkForce": "mongodb://127.0.0.1:27017/WorkForce?authSource=admin",
+  "mongodb": "mongodb://127.0.0.1:27017/BestCare?authSource=admin",
+  "mongodbGSDD5": "mongodb://charan:IrvingCoppell12@35.188.76.191:27017/GSDD5?authSource=admin",
+  "mongodbCommon": "mongodb://adminVscript:password1@35.185.71.85:27017/Common?authSource=admin",
+  "mongodbWFUsers": "mongodb://charan:IrvingCoppell12@35.188.76.191:27017/WFUsers?authSource=admin",
+  "mongodbVscript": "mongodb://adminVscript:password1@35.185.71.85:27017/Vscript?authSource=admin",
+  "mongodbSysaccess": "mongodb://adminVscript:password1@35.185.71.85:27017/Sysaccess?authSource=admin",
+  "elasticSearch": "http://35.224.176.104:9200/",
+  "digitalSignKey": "abcdefVScript098poiuytrewqLLCasdfg",
+
+  "authentication": {
+    "secret": "5f80d3fa1e04de971966269e662819f2d519d39826482b4fc62b5d063a5fbcf0b91ce3f18b3ee8356035de8b5a31b2582d653d74887027a7bd7ee8b5af62a44843d6a11ebcdcec5e34f9c9ac4dc9f0a1730a3f8e3b0adba2c72ce58a3308225eafc5518816f98834ce7712d8d937e9970068a885c024d75ff0c33a117b6caf8fe6d2a471a31da09976c414ad2b4322b4f496498ab6595cd6c4e6766fe719fbd77e2eda0aae7c32235392b811a98aba5f30e67c4b6c79d91727d140b3e0e6b8b2190b3d19f55d9a49c50c0a157bc51a86d0a9d6653ac4d40a284677842e2e1fe96c03cae9c452b896e4121ba0ca5172ef7db69e1807ecfc762db6edddc9531554",
+    "strategies": [
+      "jwt",
+      "local"
+    ],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://vscript-test.firebaseapp.com",
+      "subject": "anonymous",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "100d"
+    },
+    "local": {
+      "entity": "user",
+      "usernameField": "\\username",
+      "passwordField": "password"
+    }
+  },
+  "redis": {
+    "host": "35.194.26.217",
+    "port": 6379
+  },
+  "redisCache": {
+    "defaultDuration": 3600,
+    "parseNestedRoutes": true,
+    "removePathFromCacheKey": true,
+    "env": "NODE_ENV"
+  },
+  "eClaim": {
+    "host": "dev-eclaimsrx.relayhealth.com",
+    "port": 18009
+  },
+  "twilio": {
+    "accountSid": "AC80a8919de092c4997796ac4567a51035",
+    "sid": "SKc528c30cadb00f80536bec42ded750e5",
+    "secret": "vmDoIIpPtrk4pdDgMQXT675NgScLq3Uf"
+  }
+}

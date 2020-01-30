@@ -1,0 +1,19 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+default_md = sha256
+prompt = no
+[ req_distinguished_name ]
+countryName                 = US
+stateOrProvinceName         = Texas
+localityName               = Dallas
+organizationName           = Vscript LLC
+OU      = development
+commonName                 = graph.vscript.co
+[ req_ext ]
+subjectAltName = @alt_names
+[alt_names]
+DNS.1   = vscript.co
+DNS.2   = www.vscript.co
+DNS.3   = graph.vscript.co
