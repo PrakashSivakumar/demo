@@ -60,7 +60,7 @@
     "feathers-mongodb": "^4.0.4",
     "feathers-mongoose": "^6.3.0",
     "feathers-permissions": "^0.2.1",
-    "file-type": "^9.0.0",
+    "file-type": "^16.5.4",
     "follow-redirects": "^1.10.0",
     "got": "^9.6.0",
     "helmet": "^3.21.2",
